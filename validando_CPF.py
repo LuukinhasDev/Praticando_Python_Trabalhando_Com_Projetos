@@ -7,21 +7,11 @@ def mensagem_erro():
     print('======================')
 
 while True:
-    cpf = input('Digite seu CPF(anpenas números): ')
-    contador = 0
-    caractere_nao_numerico = False
-
-    for digito in cpf:
-        contador += 1
-
-        if not digito.isdigit():
-            caractere_nao_numerico = True
-
-    if contador == 11 and not caractere_nao_numerico:
+    cpf = input('Digite seu CPF(apenas números): ')
+    
+    if len(cpf) == 11 and cpf.isdigit():
         break
 
     mensagem_erro()
 
 print('CPF válido!')
-
-
