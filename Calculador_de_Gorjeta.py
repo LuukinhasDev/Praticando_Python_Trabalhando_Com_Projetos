@@ -19,8 +19,8 @@ percentual_gorjeta = pedir_valores('Informe o percentual(%) da gorjeta: ')
 
 gorjeta = (conta * percentual_gorjeta) / 100
 print('\n====CONTA DO RESTAURANTE====')
-print(f'O valor da conta é: {conta:.2f}')
+print(f'O valor da conta é: R${conta:.2f}')
 print(f'A gorjeta será de: {percentual_gorjeta:.1f}%')
 print(f'valor da gorjeta: R${gorjeta:.2f}')
 print(f'O valor total da conta será de: R${conta + gorjeta:.2f}')  
-print('===============================')  
+print('=============================')  
