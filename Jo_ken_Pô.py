@@ -34,7 +34,7 @@ def pedra_papel_tesoura():
 
 
     print('='*30)
-    print(f'Você escolheu: {jogador}:')
+    print(f'Você escolheu: {jogador}')
     print(f'O computador escolheu: {computador}')
     print('='*30)
     if computador == jogador:
