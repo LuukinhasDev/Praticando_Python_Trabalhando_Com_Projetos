@@ -4,7 +4,7 @@ Exercícios práticos de Python, explorando lógica de programação, validaçã
 
 ## Exercícios
 
-- **Validador_de_CPF** — pede um CPF ao usuário e verifica se tem exatamente 11 dígitos numéricos, sem letras ou caracteres especiais, repetindo o pedido até a entrada ser válida.
+- **Validador_de_CPF** — pede um CPF ao usuário e valida o formato (exatamente 11 dígitos numéricos), rejeita CPFs com todos os dígitos iguais e confere os dois dígitos verificadores com o cálculo oficial, repetindo o pedido até a entrada ser válida. O cálculo dos dígitos usa uma função única, reaproveitada para o primeiro e o segundo.
 - **Calculadora_de_gorjeta** — calcula a gorjeta e o total da conta a partir do valor e do percentual informados, aceitando vírgula ou ponto e rejeitando letras, símbolos e valores negativos.
 - **Contador_de_vogais** — conta quantas vogais existem em uma frase digitada, reconhecendo letras maiúsculas, minúsculas e acentuadas.
 - **Contador_de_palavras_longas** — identifica as palavras com 10 ou mais letras de um texto e as exibe separadas por vírgula, removendo a pontuação das palavras na hora de contar e avisando quando nenhuma é encontrada.
