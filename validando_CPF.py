@@ -41,8 +41,8 @@ while True:
     break
 
 print()
-print('='*10)
+print('='*25)
 print('O CPF informado é válido!')
-print('='*10)
+print('='*25)
 print()
 
