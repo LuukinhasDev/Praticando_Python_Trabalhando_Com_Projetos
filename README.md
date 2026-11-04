@@ -10,7 +10,7 @@ Exercícios práticos de Python, explorando lógica de programação, validaçã
 - **Contador_de_palavras_longas** — identifica as palavras com 10 ou mais letras de um texto e as exibe separadas por vírgula, removendo a pontuação das palavras na hora de contar e avisando quando nenhuma é encontrada.
 - **Gerador_de_Senha_Segura** — gera uma senha aleatória de 12 caracteres com pelo menos uma letra maiúscula, uma minúscula, um número e um caractere especial, embaralhando os caracteres no final.
 - **Jo-Ken-Pô** — jogo de pedra, papel e tesoura contra o computador, validando a jogada digitada e permitindo jogar várias rodadas seguidas.
-- **Jogo_Numero_Secreto** — o computador sorteia um número de 1 a 100 e o jogador tenta adivinhar, recebendo dicas de "mais alto" ou "mais baixo" a cada palpite até acertar.
+- **Jogo_Adivinhar_Numero** — o computador sorteia um número de 1 a 100 e o jogador tenta adivinhar, recebendo dicas de "mais alto" ou "mais baixo" a cada palpite. O programa valida a entrada, avisando o erro e pedindo de novo quando é digitado texto ou um valor fora do intervalo, e conta as tentativas válidas até o acerto.
 
 ## Como executar
 
