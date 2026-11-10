@@ -11,6 +11,7 @@ Exercícios práticos de Python, explorando lógica de programação, validaçã
 - **Gerador_de_Senha_Segura** — gera uma senha aleatória de 12 caracteres com pelo menos uma letra maiúscula, uma minúscula, um número e um caractere especial, embaralhando os caracteres no final.
 - **Jo-Ken-Pô** — jogo de pedra, papel e tesoura contra o computador, validando a jogada digitada e permitindo jogar várias rodadas seguidas.
 - **Jogo_Adivinhar_Numero** — o computador sorteia um número de 1 a 100 e o jogador tenta adivinhar, recebendo dicas de "mais alto" ou "mais baixo" a cada palpite. O programa valida a entrada, avisando o erro e pedindo de novo quando é digitado texto ou um valor fora do intervalo, e conta as tentativas válidas até o acerto.
+- **Gerenciador_de_Tarefas** — programa de terminal com menu para adicionar, visualizar e remover tarefas. Cada tarefa tem nome e descrição, aparece numerada na listagem e é removida pelo número, com validação das entradas e tratamento de lista vazia.
 
 ## Como executar
 
